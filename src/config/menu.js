@@ -11,7 +11,7 @@ export default [
     subMenu: [
       {
         link: 'ChartJs',
-        label: 'ChartJs-test'
+        label: 'ChartJs'
       },
       {
         link: 'Chartist',
