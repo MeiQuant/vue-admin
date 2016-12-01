@@ -1,47 +1,67 @@
-<p align="center"><img width="200" src="src/assets/logo@2x.png"></p>
+<div align="center">
+<p><img width="200" src="https://github.com/vue-bulma/vue-admin/blob/master/client/assets/logo@2x.png"></p>
 
-<h1 align="center">Vue Admin</h1>
+<h1>Vue Admin</h1>
 
-<p align="center">
+<p>
   <strong>Vue Admin Panel Framework</strong>,
   <a href="https://vue-admin.fundon.me">Live Demo</a>
 </p>
 
-<p align="center">
+<p>
   <sub>Made with ❤︎ by
     <a href="https://twitter.com/_fundon">Fangdun Cai</a> and
-    <a href="https://github.com/fundon/vue-admin/graphs/contributors">contributors</a>
+    <a href="https://github.com/vue-bulma/vue-admin/graphs/contributors">contributors</a>
   </sub>
 </p>
 
+<p>
+<a href="https://npmjs.org/package/vue-admin"><img src="https://img.shields.io/npm/v/vue-admin.svg" alt="NPM version"></a>
+<a href="https://www.npmjs.com/package/vue-admin"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License"></a>
+<a href="https://travis-ci.org/vue-bulma/vue-admin"><img src="https://img.shields.io/travis/vue-bulma/vue-admin.svg?label=linux" alt="Linux Build"></a>
+<a href="https://ci.appveyor.com/project/fundon/vue-admin"><img src="https://img.shields.io/appveyor/ci/fundon/vue-admin/master.svg?label=windows" alt="Window Build"/></a>
+<a href="https://gitter.im/fundon/vue-admin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/fundon/vue-admin.svg" alt="Gitter"></a>
+</p>
+
+</div>
+
 ![](screenshots/app.png)
+
 
 ## Features
 
+* Powered by [Vue][] **2.0** & [Bulma][] **0.2**
 * Responsive and Flexible Box Layout
 * [Variety of Charts](doc/charts.md)
-* [Rich Components](doc/components.md)
-* Powered by [Vue][] & [Bulma][]
+* [Rich Components](doc/components.md) or See [vue-bulma][]
 * Based on the awesome third-party [libraries](doc/dependencies.md)
+
 
 ## [Backers](backers.md)
 
 Its ongoing development is made possible thanks to the support by these awesome backers. If you'd like to join them, check out [Vue Admin & Vue Bulma](https://www.patreon.com/_fundon)'s Patreon campaign.
 
+
 ## [Development](doc/development.md)
+
 
 ### Requirements
 
-  * NPM v3
+  * Node >= v5
 
-## Badges
+  * NPM >= v3
 
-![](https://img.shields.io/badge/license-MIT-blue.svg)
-[![Gitter](https://badges.gitter.im/fundon/vue-admin.svg)](https://gitter.im/fundon/vue-admin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+  * Webpack v2
+
+
+## Notes
+
+  If you want to use Vue Admin with Vue 1.0 version, please checkout the [vue-v1](https://github.com/fundon/vue-admin/tree/vue-v1) branch.
+
 
 ---
 
-> [fundon.me](https://fundun.me) &nbsp;&middot;&nbsp;
+> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;
 > GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;
 > Twitter [@_fundon](https://twitter.com/_fundon)
 
@@ -50,3 +70,4 @@ Its ongoing development is made possible thanks to the support by these awesome 
 [Fangdun Cai]: https://twitter.com/_fundon
 [Vue]: http://vuejs.org
 [Bulma]: http://bulma.io
+[Vue-bulma]: https://github.com/vue-bulma
